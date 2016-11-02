@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TabOneFragment"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Task Summery ( From Date -To Date )"
+        android:id="@+id/textView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="180dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginRight="-10dp"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:background="@color/colorGreen"
+                android:text="Pending"
+                android:id="@+id/pending"
+                />
+
+            <TextView
+                android:layout_width="180dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="-10dp"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:textSize="20dp"
+                android:background="@color/colorGreen"
+                android:text="Completed"/>
+            <TextView
+                android:layout_width="180dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="-10dp"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:background="@color/colorGreen"
+                android:text="Canceled"/>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="-10dp"
+                android:textColor="@color/colorWhite"
+                android:textSize="20dp"
+                android:padding="5dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorGreen"
+                android:text="Total"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="-30dp" >
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:text="8"
+                android:background="@drawable/texview_design2"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:text="21"
+                android:background="@drawable/texview_design"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:text="3"
+                android:background="@drawable/texview_design3"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="32"
+                android:textColor="@color/colorWhite"
+                android:background="@drawable/texview_design4"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newTask"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:background="@color/colorGreen"
+            android:text="Assign New Task"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:padding="5dp"
+            android:background="@color/colorGreen"
+            android:text="Advanced Search"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Completion Ratio :        21/29 = 72%"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Customer feedback :        4.5"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Managment evaluation :        78%"
+        />
+
+</LinearLayout>
+</ScrollView>

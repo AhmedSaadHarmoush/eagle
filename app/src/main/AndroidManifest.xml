@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ahmed.eagletech">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Eagle Task Manager"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TaskView" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Users" />
+        <activity
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".NewData.NewTaskForm" />
+        <activity android:name=".NewData.NewTaskType" />
+        <activity android:name=".NewData.NewUserForm1" />
+        <activity android:name=".NewData.NewUserCustomer" />
+        <activity android:name=".NewData.NewUserEmployee"></activity>
+    </application>
+
+</manifest>

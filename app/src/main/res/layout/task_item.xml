@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/title"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_height="match_parent"
+                android:textSize="14dp"
+                android:layout_marginLeft="2dp"
+                android:background="@color/colorOne"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_height="match_parent"
+                android:textSize="14dp"
+                android:layout_marginLeft="3dp"
+                android:background="@color/colorGreen"
+                android:text="Change Status"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorWhite"
+                android:layout_height="match_parent"
+                android:textSize="14dp"
+                android:background="@color/colorGreen"
+                android:text="Post Comment"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight=".2"
+                android:gravity="center"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/colorWhite"
+                android:layout_height="match_parent"
+                android:textSize="14dp"
+                android:layout_marginRight="2dp"
+                android:background="@color/colorGreen"
+                android:text="View Comments"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Task Name :Maintenance"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Customer Name :Mohamed"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Task Location :XY"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Due Date/Time :24 June"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight=".5"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="10dp" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Assigned By :Hassan"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Assigned Date :11 June"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Customer feedback :blah blah blah blah"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Manager feedback :blah blah blah blah"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="o  Last Update :12 June"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
